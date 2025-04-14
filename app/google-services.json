@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "571976899252",
+    "firebase_url": "https://appthucung-default-rtdb.firebaseio.com",
+    "project_id": "appthucung",
+    "storage_bucket": "appthucung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571976899252:android:7ccab7b782c5a624f3d5e1",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571976899252-nhgm3pq2ur2k8e0s75ihl2b8ua05uig8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsoRx08DC-gATeohZwQf1eI5ORs5DfOYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571976899252-nhgm3pq2ur2k8e0s75ihl2b8ua05uig8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

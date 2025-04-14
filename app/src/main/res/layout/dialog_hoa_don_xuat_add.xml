@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_title_dong_vat_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bogoctitle"
+        android:gravity="center_horizontal"
+        android:text="Hóa Đơn Xuất"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:padding="25px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_loaiDongvVat_dongVat_add"
+        android:textColor="#FF0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp"
+        android:text="Mã Động Vật:" />
+
+    <Spinner
+        android:id="@+id/spiner_maDongVat_hoaDonXuat_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp" />
+
+    <TextView
+        android:id="@+id/tv_ma_hoa_don_xuat_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp"
+        android:text="Mã Hóa Đơn xuất:"
+        android:textColor="#FF0000" />
+
+    <EditText
+        android:id="@+id/ed_nhap_maHoaDonXuat_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:hint="Mã Hóa Đơn" />
+
+
+
+    <TextView
+        android:textColor="#FF0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:paddingVertical="5dp"
+        android:text="Giá Xuất : " />
+
+    <EditText
+        android:id="@+id/ed_nhap_gia_nhap_hoaDonXuat_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:hint="Nhập số tiền"
+        android:inputType="number" />
+
+    <TextView
+        android:textColor="#FF0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:text="Số Lượng Xuất: " />
+    <EditText
+        android:id="@+id/ed_nhap_so_luong_hoaDonXuat_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:hint="Nhập số lượng"
+        android:inputType="number" />
+    <TextView
+        android:textColor="#FF0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType=""
+        android:paddingVertical="5dp"
+        android:text="Ngày Xuất: " />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/ed_nhap_ngay_nhap_hoa_don_xuat_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:focusable="false"
+        android:hint="Ngày Xuất" />
+    </LinearLayout>
+    <TextView
+        android:textColor="#FF0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:text="Ghi Chú: " />
+    <EditText
+        android:id="@+id/ed_nhap_ghi_chu_hoaDonXuat_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:hint="ghi chú"
+         />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_huy_hoa_don_xuat_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="quayLai_HDX"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bogocbutton"
+            android:text="Quay Lại" />
+
+        <Button
+            android:id="@+id/btn_luu_hoa_don_xuat_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnLuuHoaDonXuat"
+            android:background="@drawable/bogocbutton"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Lưu" />
+    </LinearLayout>
+</LinearLayout>

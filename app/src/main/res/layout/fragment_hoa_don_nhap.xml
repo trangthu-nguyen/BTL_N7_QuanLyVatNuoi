@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_hoa_don_nhap"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/timkiemhoadonnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:padding="10px"
+        android:background="@drawable/bogocedittext"
+        android:hint=" Tìm kiếm"
+        />
+
+    <ListView
+        android:id="@+id/lv_hoa_don_nhap"
+        android:layout_below="@+id/timkiemhoadonnhap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_action_float_add_hoa_don_nhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/purple_500"
+        app:elevation="0dp"
+        android:src="@drawable/ic_baseline_add_24"
+        app:fabSize="normal" />
+</RelativeLayout>
